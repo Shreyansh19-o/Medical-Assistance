@@ -137,3 +137,4 @@ About Page (/About): Access information about the project or its creators.
 Contact Page (/Contact): Find contact details.
 
 Symptoms Page (/Symptoms): Likely displays a list of available symptoms for reference.
+
