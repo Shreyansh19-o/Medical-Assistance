@@ -1,7 +1,9 @@
 Disease Prediction System 🩺💡
+
 This is a Python Flask web application that leverages machine learning to predict potential diseases based on user-provided symptoms. Beyond just predicting, it offers comprehensive information about the predicted disease, including its description, necessary precautions, recommended medications, dietary advice, and even suggested workouts.
 
 ✨ Features
+
 Symptom-Based Disease Prediction: Input a list of symptoms to get an instant disease prediction.
 Disease Description: Detailed information about the predicted disease.
 
@@ -16,6 +18,7 @@ Workout Suggestions: Relevant workout routines (if applicable) for the predicted
 Intuitive Web Interface: A simple and user-friendly web interface for input and results.
 
 🚀 How it Works
+
 The core of this system is a machine learning model (specifically a Support Vector Classifier, SVC) trained on a dataset linking symptoms to diseases.
 
 Data Loading: The application loads several CSV files containing symptom descriptions, precautions, workouts, general disease descriptions, medications, and diets.
@@ -46,6 +49,7 @@ medications.csv: Lists medications for diseases.
 diets.csv: Provides diet recommendations for diseases.
 
 🛠️ Setup and Installation
+
 1. Prerequisites
 Python 3.x
 
@@ -106,6 +110,7 @@ Ensure you have a templates folder in the same directory as app.py containing in
 If your application uses static assets (CSS, JavaScript, images), ensure you also have a static folder.
 
 🚀 Running the Application
+
 Activate your virtual environment (if not already active):
 
 # On Windows:
@@ -124,6 +129,7 @@ The application will start, and you will see a message in your terminal indicati
 Open your web browser and navigate to that address.
 
 🖥️ Usage
+
 Home Page (/ or /predict): This is where you will input your symptoms.
 
 Enter your symptoms (e.g., itching, skin_rash, fatigue) into the input field. Ensure symptoms are comma-separated and correctly spelled as per the symptoms_dict in app.py.
