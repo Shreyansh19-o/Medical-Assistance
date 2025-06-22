@@ -34,6 +34,7 @@ Information Retrieval: Based on the predicted disease, the helper function retri
 Display Results: The predictions and relevant information are then rendered on the web page.
 
 🗃️ Datasets Used
+
 The application relies on several CSV files, which should be placed in a dataset/ directory:
 
 symtoms_df.csv: Likely contains the training data with symptoms mapped to disease IDs.
@@ -57,6 +58,7 @@ Git (optional, for cloning the repository)
 
 2. Project Structure
 Ensure your project directory is organized as follows:
+
 
 .
 ├── app.py
